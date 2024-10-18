@@ -9,3 +9,9 @@ jobs:
     steps:
     - name: hello mundo
       run: echo "hello mundo"
+  
+  other:
+    runs-on: ubuntu-latest
+    steps:
+    - name: List files
+      run: ls
